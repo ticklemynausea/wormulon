@@ -165,7 +165,7 @@ int main (int argc, char **argv)
 				snprintf(dim_out, 2, "B");
 
 			/* print to screen */
-			printf("in %lu %s/s out %lu %s/s\n",
+			printf("d:%lu%s u:%lu%s\n",
 					(unsigned long) cur_in, dim_in,
 					(unsigned long) cur_out, dim_out);
 			fflush(stdout);
